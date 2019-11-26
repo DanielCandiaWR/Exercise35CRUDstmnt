@@ -1,0 +1,20 @@
+@charset "ISO-8859-1";
+body{
+	margin: 5%;
+	padding: 5%;
+ background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,81,1) 0%, rgba(0,212,255,1) 95%); 
+}
+h1{
+	color: white;
+	text-align: center;
+	font-family: verdana;
+	font-size: 300%;
+	text-shadow: 0px 10px 10px black;
+}
+div.input-group{
+	margin: 2%;
+}
+input.btn{
+	margin: 0% 5% 0% 5%;
+}
