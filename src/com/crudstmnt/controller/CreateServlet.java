@@ -40,7 +40,7 @@ public class CreateServlet extends HttpServlet {
 		double productPrice = Double.parseDouble(request.getParameter("txtProductPrice"));
 		
 		//1. Declare Variables
-		String urlServer = "jdbc:mysql://localhost:3306/store?useSSL=false&serverTimezone=UTC";
+		String urlServer = "jdbc:mysql://localhost:3306/store?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC";
 		String userName = "root";
 		String password = "root";
 		int rowsAffected = 0;

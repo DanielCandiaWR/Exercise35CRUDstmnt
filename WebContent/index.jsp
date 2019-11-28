@@ -15,9 +15,9 @@
 		<li class="list-group-item list-group-item-action"><a href="create.jsp">Create</a></li>
 		<li class="list-group-item list-group-item-action dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Read <span class="caret"></span></a>
 			<ul class="dropdown-menu" role="menu">
-				<li class="dropdown-item"><a href="generalRead.jsp">General Read</a></li>
+				<li class="dropdown-item"><a href="GeneralReadServlet">General Read</a></li>
 		       	<li class="divider"></li>
-		       	<li class="dropdown-item"><a href="individualRead.jsp">Individual Read</a></li>
+		       	<li class="dropdown-item"><a href="GeneralReadServlet">Individual Read</a></li>
 			</ul>
 		</li>
 		<li class="list-group-item list-group-item-action"><a href="update.jsp">Update</a></li>
